@@ -1,0 +1,18 @@
+common: &common
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+  username: nptg
+  password: nptg
+
+development:
+  <<: *common
+  database: nptg_development
+
+test:
+  <<: *common
+  database: nptg_test
+
+production:
+  <<: *common
+  database: nptg_production

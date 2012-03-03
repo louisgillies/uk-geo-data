@@ -1,0 +1,16 @@
+== Welcome to UK Geo Data
+
+UK Geo Data is a Ruby on Rails application which can import NaPTAN and NPTG
+data and allow it to be queried and analysed through a web browser.
+
+== Getting Started
+
+1. Configure config/database.yml to your liking
+2. Download the NPTG data in CSV format in to the data/ directory
+3. Run extra/import-csv.rb
+
+== Author
+
+The application was written by Peter Hicks - please send feedback and
+comments via email to peter.hicks@poggs.co.uk.
+
